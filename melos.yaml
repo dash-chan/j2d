@@ -1,0 +1,4 @@
+name: j2d
+packages:
+  - packages/**
+  - example

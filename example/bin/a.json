@@ -1,0 +1,13 @@
+{
+  "$name": "PersonInfo",
+  "prefix": "jack",
+  "suffix": "bob",
+  "price": 123.00,
+  "height": 170,
+  "#height": "int",
+  "detail": {
+      "$name": "PersonInfoDetail",
+      "path": "foo.bar",
+      "schema":"foo"
+  }
+}

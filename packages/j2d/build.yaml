@@ -1,0 +1,8 @@
+builders:
+  J2DBuilder:
+    import: "package:j2d/src/j2d_builder.dart"
+    builder_factories: ["j2dBuilder"]
+    build_extensions: { ".json": [".json.g.dart"] }
+    auto_apply: dependents
+    build_to: source
+    runs_before: ["json_serializable|json_serializable"]
